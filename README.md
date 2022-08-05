@@ -7,7 +7,7 @@ Slike:
 <br>
 Domov
 <br>
-<img src="./Slike-predogled/Domov.png" alt="Domov" height="5rem">
+<img src="./Slike-predogled/Domov.png" alt="Domov">
 Nahajališča
 <br>
 <img src="./Slike-predogled/postaje.png" alt="Postaje">
