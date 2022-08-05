@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./Gradivo/favicon-32x32.png">
+    <!-- Pisava -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+          rel="stylesheet">
+    <!-- Nas slog -->
+    <link rel="stylesheet" href="slog.css">
+    <title>Posadka | Obiskovanje vesolja</title>
+</head>
+<body class="posadka">
+
+<a class="preskoci-na-vsebino" href="#vsebina">Preskoci na vsebino</a>
+<header id="posadka" class="koreninaglave glavna-glava flex"></header>
+
+<main id="vsebina" class="grid-zbiralnik grid-zbiralnik--posadka flow">
+    <h1 class="podnaslov"><span aria-hidden="true">02</span> Spoznaj posadko</h1>
+
+    <div id="drzalecpikic" class="pikice flex ">
+        <button aria-selected="true" class="dejavno"><span class="sr-only">Poveljnik</span></button>
+        <button aria-selected="false"><span class="sr-only">Strokovnjak naloge</span></button>
+        <button aria-selected="false"><span class="sr-only">Krmar</span></button>
+        <button aria-selected="false"><span class="sr-only">Tehnični veščak</span></button>
+    </div>
+
+    <article class="podrobnosti-posadke flow">
+        <header class="flow flow-presledek--malo">
+        <h2 class="dp-serif vp-600 velika-zacetnica">Poveljnik</h2>
+        <p class="dp-serif vp-700 velika-zacetnica">Douglas Hurley</p>
+        </header>
+
+        <p class="besedilo bs-roza dp-sans-normal">Douglas Gerald Hurley je ameriški tehniški veščak, bivši krmar družbe Marine Corps
+            ter astronavt NASE. Ko je bil v vesolje poslan že tretjič, je postal poveljnik rakete
+            Crew Dragon Demo-2.</p>
+    </article>
+
+    <picture class="gridslika">
+        <source srcset="./Gradivo/posadka/image-douglas-hurley.webp" type="image/webp">
+        <img src="./Gradivo/posadka/image-douglas-hurley.png" alt="Astronavt"/>
+    </picture>
+</main>
+
+<script src="index.js" type="module"></script>
+<script src="glavni-zavihki.js" type="module"></script>
+<script src="zavihki.js" type="module"></script>
+</body>
+</html>

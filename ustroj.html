@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./Gradivo/favicon-32x32.png">
+    <!-- Pisava -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+          rel="stylesheet">
+    <!-- Nas slog -->
+    <link rel="stylesheet" href="slog.css">
+    <title>Ustroj | Obiskovanje vesolja</title>
+    <style>
+        @media (min-width: 50em) {
+            .grid-zbiralnik--ustroj > .gridslika {
+                content: url('./Gradivo/ustroj/image-spaceport-portrait.jpg');
+            }
+        }
+    </style>
+</head>
+<body class="ustroj">
+
+<a class="preskoci-na-vsebino" href="#vsebina">Preskoci na vsebino</a>
+<header id="ustroj" class="koreninaglave glavna-glava flex"></header>
+
+<main id="vsebina" class="grid-zbiralnik grid-zbiralnik--ustroj flow">
+    <h1 class="podnaslov"><span aria-hidden="true">03</span>Vzlet v vesolje 101</h1>
+
+    <picture class="gridslika">
+        <img src="./Gradivo/ustroj/image-spaceport-landscape.jpg">
+    </picture>
+
+    <div id="drzalecstevil" class="stevila dp-sans-cond vp-500">
+        <button aria-selected="true" class="dejavno">1</span></button>
+        <button aria-selected="false" >2</span></button>
+        <button aria-selected="false">3</button>
+    </div>
+
+    <article class="podrobnosti-ustroja flow">
+        <header class="flow flow-presledek--malo">
+            <h2 class="dp-sans-normal bs-roza vp-400 velika-zacetnica">Koraki naloge...</h2>
+            <p class="dp-serif vp-700 velika-zacetnica">Vesoljska luka</p>
+        </header>
+
+        <p class="besedilo bs-roza">Vesoljska luka ali izstrelišče je kraj, kraj za izstrelitev (ali pristanek) vesoljskih plovil
+            pogosto z bližnjo luko za ladje ali letališčem za letala. S sedežem v
+            znamenitem Cape Canaveral-u, je naše izstrelišče na popolnem mestu glede na izkoriščanje
+            vrtenja Zemlje.</p>
+    </article>
+</main>
+
+<script src="index.js" type="module"></script>
+<script src="glavni-zavihki.js" type="module"></script>
+<script src="zavihki.js" type="module"></script>
+</body>
+</html>

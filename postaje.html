@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./Gradivo/favicon-32x32.png">
+    <!-- Pisava -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+          rel="stylesheet">
+    <!-- Nas slog -->
+    <link rel="stylesheet" href="slog.css">
+    <title>Postaje | Obiskovanje vesolja</title>
+</head>
+<body class="postaje">
+
+<a class="preskoci-na-vsebino" href="#vsebina">Preskoci na vsebino</a>
+<header id="postaje" class="koreninaglave glavna-glava flex"></header>
+
+<main id="vsebina" class="grid-zbiralnik grid-zbiralnik--postaje flow">
+    <h1 class="podnaslov dp-sans-cond "><span aria-hidden="true">01</span>Izberi svojo postajo</h1>
+    <picture class="gridslika">
+        <source srcset="./Gradivo/nahajalisca/image-moon.webp" type="image/webp">
+        <img src="./Gradivo/nahajalisca/image-moon.png" alt="the moon">
+    </picture>
+    <div id="gumbizavihek" class="gumbi flex podcrtanost">
+        <button aria-selected="true" class="gumbek bs-roza dp-sans-cond velika-zacetnica razdalja-crk-2 dejavno">Luna</button>
+        <button aria-selected="false" class="gumbek bs-roza dp-sans-cond velika-zacetnica razdalja-crk-2">Mars</button>
+        <button aria-selected="false" class="gumbek bs-roza dp-sans-cond velika-zacetnica razdalja-crk-2">Evropa</button>
+        <button aria-selected="false" class="gumbek bs-roza dp-sans-cond velika-zacetnica razdalja-crk-2">Titan</button>
+    </div>
+
+    <article class="postaje-podatki">
+        <h2 class="vp-800 dp-serif velika-zacetnica">Luna</h2>
+
+        <p class="besedilo bs-roza dp-sans-normal">Oglejte si naš planet, kot ga še niste videli. Popoln sproščujoč izlet,
+            ki vam bo pomagal ponovno pridobiti vidik ter se vrnitev sproščenosti.
+            Medtem ko ste tam, si privoščite nekaj zgodovine tako,
+            da obiščete pristajališča Luna 2 in Apollo 11.</p>
+        <div class="postaje-znamenitosti flex">
+            <div>
+                <h3 class="bs-roza vp-200 velika-zacetnica">Razdalja</h3>
+                <p class="postaje-razdalja dp-serif velika-zacetnica">384,400 km</p>
+            </div>
+            <div>
+                <h3 class="bs-roza dp-sans-normal vp-200 velika-zacetnica">Čas potovanja</h3>
+                <p class="postaje-pot dp-serif velika-zacetnica"> 3 dni</p>
+            </div>
+        </div>
+    </article>
+
+
+</main>
+
+<script src="index.js" type="module"></script>
+<script src="glavni-zavihki.js" type="module"></script>
+<script src="zavihki.js" type="module"></script>
+</body>
+</html>
